@@ -284,5 +284,109 @@
       "soothing-pastel-theme",
       "theme"
     ]
+  },
+  {
+    "name": "borgbase/vorta",
+    "description": "Desktop Backup Client for Borg Backup",
+    "link": "https://github.com/borgbase/vorta",
+    "github_stars": 1755,
+    "community_ratings": 8.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "backup-client",
+      "borg",
+      "borgbackup",
+      "gui",
+      "linux-desktop",
+      "macos"
+    ]
+  },
+  {
+    "name": "wagtail/wagtail",
+    "description": "A Django content management system focused on flexibility and user experience",
+    "link": "https://github.com/wagtail/wagtail",
+    "github_stars": 16465,
+    "community_ratings": 8.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "cms",
+      "django",
+      "hacktoberfest",
+      "python",
+      "wagtail"
+    ]
+  },
+  {
+    "name": "lutris/lutris",
+    "description": "Lutris desktop client in Python / PyGObject",
+    "link": "https://github.com/lutris/lutris",
+    "github_stars": 7056,
+    "community_ratings": 10.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "game-launcher",
+      "gaming"
+    ]
+  },
+  {
+    "name": "an-anime-team/an-anime-game-launcher",
+    "description": "An Anime Game launcher for Linux with telemetry disabling",
+    "link": "https://github.com/an-anime-team/an-anime-game-launcher",
+    "github_stars": 1164,
+    "community_ratings": 10.0,
+    "date": "2023-12-25",
+    "keywords": []
+  },
+  {
+    "name": "videolan/vlc",
+    "description": "VLC media player - All pull requests are ignored, please follow https://wiki.videolan.org/Sending_Patches_VLC/",
+    "link": "https://github.com/videolan/vlc",
+    "github_stars": 12244,
+    "community_ratings": 7.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "c",
+      "framework",
+      "gplv2",
+      "lgpl",
+      "multimedia",
+      "open-source",
+      "vlc"
+    ]
+  },
+  {
+    "name": "johnfactotum/foliate",
+    "description": "Read e-books in style",
+    "link": "https://github.com/johnfactotum/foliate",
+    "github_stars": 4638,
+    "community_ratings": 7.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "azw",
+      "comics",
+      "ebook-reader",
+      "epub",
+      "fb2",
+      "gjs",
+      "gtk",
+      "hacktoberfest",
+      "hacktoberfest-accepted",
+      "mobi"
+    ]
+  },
+  {
+    "name": "ranger/ranger",
+    "description": "A VIM-inspired filemanager for the console",
+    "link": "https://github.com/ranger/ranger",
+    "github_stars": 14325,
+    "community_ratings": 7.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "console",
+      "file-launcher",
+      "file-manager",
+      "file-preview",
+      "vim"
+    ]
   }
 ]
