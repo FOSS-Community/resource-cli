@@ -3,8 +3,8 @@
     "name": "spacedriveapp/spacedrive",
     "description": "Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.",
     "link": "https://github.com/spacedriveapp/spacedrive",
-    "github_stars": 27455,
-    "community_ratings": 8.0,
+    "github_stars": 27457,
+    "community_ratings": 8.75,
     "date": "2022-08-15",
     "keywords": [
       "filesystem",
@@ -17,7 +17,7 @@
     "description": "Scheduling infrastructure for absolutely everyone.",
     "link": "https://github.com/calcom/cal.com",
     "github_stars": 25630,
-    "community_ratings": 8.0,
+    "community_ratings": 9.25,
     "date": "2022-07-10",
     "keywords": [
       "scheduling",
@@ -30,7 +30,7 @@
     "description": "Sync anywhere",
     "link": "https://github.com/n0-computer/iroh",
     "github_stars": 1084,
-    "community_ratings": 8.0,
+    "community_ratings": 7.5,
     "date": "2023-01-25",
     "keywords": [
       "IPFS",
@@ -43,7 +43,7 @@
     "description": "A modern, web-based photo management server. Run it on your home server and it will let you find the right photo from your collection on any device. Smart filtering is made possible by object recognition, face recognition, location awareness, color analysis and other ML algorithms.",
     "link": "https://github.com/photonixapp/photonix",
     "github_stars": 1733,
-    "community_ratings": 8.0,
+    "community_ratings": 7.5,
     "date": "2022-11-05",
     "keywords": [
       "photo-management",
@@ -55,8 +55,8 @@
     "name": "Budibase/budibase",
     "description": "Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform you'll enjoy using ⚡  ",
     "link": "https://github.com/Budibase/budibase",
-    "github_stars": 19649,
-    "community_ratings": 8.0,
+    "github_stars": 19651,
+    "community_ratings": 7.5,
     "date": "2022-09-12",
     "keywords": [
       "low-code",
@@ -82,7 +82,7 @@
     "description": "Build like a team of hundreds_",
     "link": "https://github.com/appwrite/appwrite",
     "github_stars": 38579,
-    "community_ratings": 8.0,
+    "community_ratings": 7.5,
     "date": "2023-03-01",
     "keywords": [
       "backend",
@@ -94,7 +94,7 @@
     "name": "ToolJet/ToolJet",
     "description": "Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application builder. Built using JavaScript/TypeScript. 🚀",
     "link": "https://github.com/ToolJet/ToolJet",
-    "github_stars": 25392,
+    "github_stars": 25391,
     "community_ratings": 8.0,
     "date": "2022-05-21",
     "keywords": [
@@ -107,7 +107,7 @@
     "name": "nocodb/nocodb",
     "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
     "link": "https://github.com/nocodb/nocodb",
-    "github_stars": 39673,
+    "github_stars": 39675,
     "community_ratings": 8.0,
     "date": "2022-12-30",
     "keywords": [
@@ -120,7 +120,7 @@
     "name": "medusajs/medusa",
     "description": "Building blocks for digital commerce",
     "link": "https://github.com/medusajs/medusa",
-    "github_stars": 21042,
+    "github_stars": 21043,
     "community_ratings": 8.0,
     "date": "2023-04-10",
     "keywords": [
@@ -134,7 +134,7 @@
     "description": "Autotype on websites that have copy-paste disabled like Moodle, HackerEarth contest etc.",
     "link": "https://github.com/tushar5526/Autotype",
     "github_stars": 37,
-    "community_ratings": 9.0,
+    "community_ratings": 9.8125,
     "date": "2023-12-25",
     "keywords": [
       "hacktoberfest",
@@ -148,8 +148,141 @@
     "description": "A CLI tool containing cool open source tools and software resources with categories, github stars and community ratings.",
     "link": "https://github.com/FOSS-Community/resource-cli",
     "github_stars": 0,
-    "community_ratings": 8.0,
+    "community_ratings": 9.0,
     "date": "2023-12-25",
     "keywords": []
+  },
+  {
+    "name": "nushell/nushell",
+    "description": "A new type of shell",
+    "link": "https://github.com/nushell/nushell",
+    "github_stars": 27695,
+    "community_ratings": 9.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "rust",
+      "shell"
+    ]
+  },
+  {
+    "name": "ghostfolio/ghostfolio",
+    "description": "Open Source Wealth Management Software. Angular + NestJS + Prisma + Nx + TypeScript 🤍",
+    "link": "https://github.com/ghostfolio/ghostfolio",
+    "github_stars": 2972,
+    "community_ratings": 9.4,
+    "date": "2023-12-25",
+    "keywords": [
+      "angular",
+      "etf",
+      "finance",
+      "fintech",
+      "ghostfolio",
+      "hacktoberfest",
+      "investing",
+      "nestjs",
+      "oss",
+      "personal-finance",
+      "portfolio",
+      "prisma",
+      "software",
+      "stock",
+      "tracker",
+      "trading",
+      "typescript",
+      "wealth-management",
+      "web"
+    ]
+  },
+  {
+    "name": "pmndrs/jotai",
+    "description": "👻 Primitive and flexible state management for React",
+    "link": "https://github.com/pmndrs/jotai",
+    "github_stars": 15915,
+    "community_ratings": 7.8,
+    "date": "2023-12-25",
+    "keywords": [
+      "atomic",
+      "hacktoberfest",
+      "management",
+      "react",
+      "state"
+    ]
+  },
+  {
+    "name": "colinhacks/zod",
+    "description": "TypeScript-first schema validation with static type inference",
+    "link": "https://github.com/colinhacks/zod",
+    "github_stars": 27668,
+    "community_ratings": 8.65,
+    "date": "2023-12-25",
+    "keywords": [
+      "runtime-validation",
+      "schema-validation",
+      "static-types",
+      "type-inference",
+      "typescript"
+    ]
+  },
+  {
+    "name": "directus/directus",
+    "description": "The Modern Data Stack 🐰 — Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.",
+    "link": "https://github.com/directus/directus",
+    "github_stars": 24117,
+    "community_ratings": 6.9,
+    "date": "2023-12-25",
+    "keywords": [
+      "api",
+      "app",
+      "cms",
+      "dashboard",
+      "data-visualization",
+      "database",
+      "directus",
+      "graphql",
+      "headless-cms",
+      "javascript",
+      "mssql",
+      "mysql",
+      "no-code",
+      "node",
+      "oracle",
+      "postgresql",
+      "sql",
+      "sqlite",
+      "typescript",
+      "vue"
+    ]
+  },
+  {
+    "name": "unjs/nitro",
+    "description": "Create, build and deploy universal web servers. The open engine powering Nuxt and open to everyone.",
+    "link": "https://github.com/unjs/nitro",
+    "github_stars": 3592,
+    "community_ratings": 8.23,
+    "date": "2023-12-25",
+    "keywords": []
+  },
+  {
+    "name": "catppuccin/catppuccin",
+    "description": "😸 Soothing pastel theme for the high-spirited!",
+    "link": "https://github.com/catppuccin/catppuccin",
+    "github_stars": 10893,
+    "community_ratings": 9.24,
+    "date": "2023-12-25",
+    "keywords": [
+      "catppuccin",
+      "catppuccin-meta",
+      "color-palette",
+      "color-scheme",
+      "customization",
+      "dark-theme",
+      "eye-candy",
+      "fancy",
+      "hacktoberfest",
+      "pastel",
+      "soothing-dark-theme",
+      "soothing-pastel-theme",
+      "theme"
+    ]
   }
 ]
