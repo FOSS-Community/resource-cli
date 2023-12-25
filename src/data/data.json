@@ -142,5 +142,14 @@
       "python3",
       "tkinter"
     ]
+  },
+  {
+    "name": "FOSS-Community/resource-cli",
+    "description": "A CLI tool containing cool open source tools and software resources with categories, github stars and community ratings.",
+    "link": "https://github.com/FOSS-Community/resource-cli",
+    "github_stars": 0,
+    "community_ratings": 8.0,
+    "date": "2023-12-25",
+    "keywords": []
   }
 ]

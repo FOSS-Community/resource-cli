@@ -12,3 +12,4 @@ tokio = { version = "1.35.1", features = ["full"] }
 dialoguer = "0.11.0"
 colored = "2.1.0"
 chrono = "0.4.31"
+rand = "0.8.5"

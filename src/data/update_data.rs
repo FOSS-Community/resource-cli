@@ -1,4 +1,4 @@
-use super::data::{read_data, write_data, Resource};
+use super::data::{read_data, write_data};
 use reqwest;
 use std::error::Error;
 
