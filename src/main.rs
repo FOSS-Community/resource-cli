@@ -1,76 +1,46 @@
-use dialoguer::{theme::ColorfulTheme, Input, Select};
-use colored::*;
-use serde::{Deserialize, Serialize};
-use std::{fs, error::Error};
-
-#[derive(Serialize, Deserialize, Debug)]
-struct Resource {
-    name: String,
-    description: String,
-    link: String,
-    github_stars: u64,
-    community_ratings: Vec<f64>,
-    date: String,
-    keywords: Vec<String>,
+mod data {
+    pub mod data;
+    pub mod update_data;
+    pub mod add_data; 
 }
+
+use dialoguer::{theme::ColorfulTheme, Input, Select};
+use std::error::Error;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let my_theme = ColorfulTheme::default();
+    let selections = vec![
+        "Update Data",
+        "Add Project",
+        "Vote on Project",
+        "Search",
+        "Today's Hot",
+        "Trending on GitHub",
+        "Most Voted"
+    ];
 
-    let selections = vec!["Today's Hot", "Trending on GitHub", "Most Voted", "Recent Listing", "Custom Search"];
-    let selection_index = Select::with_theme(&my_theme)
-        .with_prompt("Choose a category to list resources or search")
+    let selection_index = Select::with_theme(&ColorfulTheme::default())
+        .with_prompt("What would you like to do?")
         .default(0)
         .items(&selections[..])
         .interact_opt()?;
 
-    let data = fs::read_to_string("data/data.json")?;
-    let resources: Vec<Resource> = serde_json::from_str(&data)?;
-
     match selection_index {
-        Some(index) => {
-            if index == selections.len() - 1 { // If 'Custom Search' is selected
-                let search_query: String = Input::with_theme(&my_theme)
-                    .with_prompt("Enter search term")
-                    .interact_text()?;
-                search_resources(&resources, &search_query);
-            } else {
-                list_resources(&resources, &selections[index]);
-            }
-        }
-        None => println!("{}", "No selection made, exiting.".red()),
+        Some(0) => data::update_data::update_data_with_github_info().await?,
+        Some(1) => {
+            let username_repo: String = Input::with_theme(&ColorfulTheme::default())
+                .with_prompt("Enter the GitHub username/repo (e.g., username/repo)")
+                .interact_text()?;
+            data::add_data::add_project(&username_repo).await?;
+        },
+        Some(2) => println!("Voting functionality coming soon..."),
+        Some(3) => println!("Search functionality coming soon..."),
+        Some(4) => println!("Today's Hot functionality coming soon..."),
+        Some(5) => println!("Trending on GitHub functionality coming soon..."),
+        Some(6) => println!("Most Voted functionality coming soon..."),
+        None => println!("No selection made, exiting."),
+        _ => println!("Invalid option."),
     }
 
     Ok(())
-}
-
-fn list_resources(resources: &[Resource], category: &str) {
-    println!("{}", format!("Listing resources for category: {}", category).underline());
-    for resource in resources {
-        println!(
-            "{}\n{}\n{}\n{} Stars: {}\nDate: {}\n-----",
-            "Name:".yellow(),
-            resource.name.cyan(),
-            resource.description,
-            "GitHub".bright_purple(),
-            resource.github_stars.to_string().bright_yellow(),
-            resource.date.green()
-        );
-    }
-}
-
-fn search_resources(resources: &[Resource], query: &str) {
-    println!("{}", format!("Searching resources for: {}", query).underline().yellow());
-    for resource in resources.iter().filter(|res| res.name.contains(query) || res.description.contains(query) || res.keywords.contains(&query.to_string())) {
-        println!(
-            "{}\n{}\n{}\n{} Stars: {}\nDate: {}\n-----",
-            "Name:".yellow(),
-            resource.name.cyan(),
-            resource.description,
-            "GitHub".bright_purple(),
-            resource.github_stars.to_string().bright_yellow(),
-            resource.date.green()
-        );
-    }
 }

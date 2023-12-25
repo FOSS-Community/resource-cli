@@ -7,7 +7,8 @@ edition = "2021"
 clap = "4.4.11"
 serde = { version = "1.0.193", features = ["derive"] }
 serde_json = "1.0.108"
-reqwest = "0.11.23"
+reqwest = { version = "0.11.23", features = ["json"] }
 tokio = { version = "1.35.1", features = ["full"] }
 dialoguer = "0.11.0"
 colored = "2.1.0"
+chrono = "0.4.31"

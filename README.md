@@ -70,4 +70,3 @@ Discord - [Join](https://discord.gg/zh2UmCxjVj)
 ---
 
 ✨ Happy Coding! ✨
-```

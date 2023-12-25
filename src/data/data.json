@@ -1,0 +1,146 @@
+[
+  {
+    "name": "spacedriveapp/spacedrive",
+    "description": "Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.",
+    "link": "https://github.com/spacedriveapp/spacedrive",
+    "github_stars": 27455,
+    "community_ratings": 8.0,
+    "date": "2022-08-15",
+    "keywords": [
+      "filesystem",
+      "virtual-drive",
+      "open-source"
+    ]
+  },
+  {
+    "name": "calcom/cal.com",
+    "description": "Scheduling infrastructure for absolutely everyone.",
+    "link": "https://github.com/calcom/cal.com",
+    "github_stars": 25630,
+    "community_ratings": 8.0,
+    "date": "2022-07-10",
+    "keywords": [
+      "scheduling",
+      "calendar",
+      "open-source"
+    ]
+  },
+  {
+    "name": "n0-computer/iroh",
+    "description": "Sync anywhere",
+    "link": "https://github.com/n0-computer/iroh",
+    "github_stars": 1084,
+    "community_ratings": 8.0,
+    "date": "2023-01-25",
+    "keywords": [
+      "IPFS",
+      "Rust",
+      "modular"
+    ]
+  },
+  {
+    "name": "photonixapp/photonix",
+    "description": "A modern, web-based photo management server. Run it on your home server and it will let you find the right photo from your collection on any device. Smart filtering is made possible by object recognition, face recognition, location awareness, color analysis and other ML algorithms.",
+    "link": "https://github.com/photonixapp/photonix",
+    "github_stars": 1733,
+    "community_ratings": 8.0,
+    "date": "2022-11-05",
+    "keywords": [
+      "photo-management",
+      "AI",
+      "photography"
+    ]
+  },
+  {
+    "name": "Budibase/budibase",
+    "description": "Low code platform for creating internal tools, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀. Budibase, the low code platform you'll enjoy using ⚡  ",
+    "link": "https://github.com/Budibase/budibase",
+    "github_stars": 19649,
+    "community_ratings": 8.0,
+    "date": "2022-09-12",
+    "keywords": [
+      "low-code",
+      "business-app",
+      "automation"
+    ]
+  },
+  {
+    "name": "logto-io/logto",
+    "description": "🧑‍🚀 Every app needs authentication and authorization. Logto is an Auth0 alternative designed for modern apps and SaaS products.",
+    "link": "https://github.com/logto-io/logto",
+    "github_stars": 6578,
+    "community_ratings": 8.0,
+    "date": "2023-02-17",
+    "keywords": [
+      "auth",
+      "security",
+      "open-source"
+    ]
+  },
+  {
+    "name": "appwrite/appwrite",
+    "description": "Build like a team of hundreds_",
+    "link": "https://github.com/appwrite/appwrite",
+    "github_stars": 38579,
+    "community_ratings": 8.0,
+    "date": "2023-03-01",
+    "keywords": [
+      "backend",
+      "API",
+      "cloud"
+    ]
+  },
+  {
+    "name": "ToolJet/ToolJet",
+    "description": "Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application builder. Built using JavaScript/TypeScript. 🚀",
+    "link": "https://github.com/ToolJet/ToolJet",
+    "github_stars": 25392,
+    "community_ratings": 8.0,
+    "date": "2022-05-21",
+    "keywords": [
+      "low-code",
+      "internal-tools",
+      "open-source"
+    ]
+  },
+  {
+    "name": "nocodb/nocodb",
+    "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
+    "link": "https://github.com/nocodb/nocodb",
+    "github_stars": 39673,
+    "community_ratings": 8.0,
+    "date": "2022-12-30",
+    "keywords": [
+      "database",
+      "spreadsheet",
+      "no-code"
+    ]
+  },
+  {
+    "name": "medusajs/medusa",
+    "description": "Building blocks for digital commerce",
+    "link": "https://github.com/medusajs/medusa",
+    "github_stars": 21042,
+    "community_ratings": 8.0,
+    "date": "2023-04-10",
+    "keywords": [
+      "e-commerce",
+      "headless",
+      "open-source"
+    ]
+  },
+  {
+    "name": "tushar5526/Autotype",
+    "description": "Autotype on websites that have copy-paste disabled like Moodle, HackerEarth contest etc.",
+    "link": "https://github.com/tushar5526/Autotype",
+    "github_stars": 37,
+    "community_ratings": 9.0,
+    "date": "2023-12-25",
+    "keywords": [
+      "hacktoberfest",
+      "hacktoberfest2022",
+      "python3",
+      "tkinter"
+    ]
+  }
+]
